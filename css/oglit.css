@@ -1,0 +1,108 @@
+body{
+	background-color: #fafafa;
+	color: #a8a8a8;
+}
+h1, h2, h3, h4, h5{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	margin-top: 20px;
+	margin-bottom: 32px;
+}
+.header div{
+	/*float: left;*/
+	display: inline;
+	text-align: center;
+}
+.paneles{
+	margin-top: 20px;
+}
+.paquetes{
+	text-align: center;
+}
+.desde{
+	margin-top: 30px;
+}
+.tag-line{
+	font-size: 1.8em;
+	font-style: italic;
+	margin-top: 10px;
+}
+.logo{
+	width: 90%;
+}
+.home-container{
+	text-align: center;
+	margin: 10% auto;
+	width: 50%;
+}
+.home-nav{
+	margin-top: 40px;
+}
+.home-nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.home-nav li{
+	display: inline;
+	text-align: center;
+	/*margin-right: 10px;*/
+	font-size: 18px;
+	padding: 6px;
+}
+.home-nav li a{
+	text-decoration: none;
+	padding: 0;
+}
+.footer-nav{
+	margin-top: 40px;
+}
+.footer-nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-nav li{
+	display: inline;
+	text-align: center;
+	/*margin-right: 10px;*/
+	font-size: 18px;
+	padding: 6px;
+}
+.footer-nav li a{
+	text-decoration: none;
+	padding: 0;
+}
+.logo-footer img{
+	margin-left: 4em;
+	width: 60px;
+}
+.footer{
+	margin-top: 5%;
+	text-align: center;
+}
+.cliente-nombre, .cliente-city{
+	font-weight: bold;
+	font-size: 1em;
+}
+.cliente-city{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.img-cliente{
+	width: 100%;
+}
+.frm{
+	border: 1px #a8a8a8 dashed;
+	margin: 0 auto;
+	width: 50%;
+}
+.row{
+	opacity: 0;
+}

@@ -1,0 +1,47 @@
+<script>
+	$(document).ready(function() {
+		$('.row').animate({
+			'margin':'20px',
+			'opacity':'1'
+		}, 1500);
+	});
+</script>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="home-container">
+			<div class="logo-home">
+				<a href="#/home"><img class="logo" src="public/img/oglit_logo.png" alt=""></a>
+				<h1 class="tag-line">{{tagLine}}</h1>
+			</div>
+			<div class="home-nav">
+				<ul>
+					<li><a href="#/servicios">Servicios</a></li>
+					<li><a href="#/portafolio">Portafolio</a></li>
+					<li><a href="#/contacto">Contacto</a></li>
+				</ul>
+			</div>
+
+
+			<!-- prueba auth -->
+			<div>
+				<button class="btn btn-success" ng-click="mainVm.navigateTo('private')">PRIVATE</button>
+				
+				<button class="btn btn-success" ng-click="mainVm.navigateTo('servicios')">SERVICIOS</button>
+			</div>
+			<br>
+			<br>
+			<br>
+			<!-- controlador login -->
+			<div ng-controller="loginController as vm">
+				<button class="btn btn-success" ng-click="vm.facebookLogin()" ng-show="!vm.isLoggedIn">Ingresa con Face</button>
+			
+
+				<!-- boton logout -->
+				<button class="btn btn-primary" ng-click="vm.logout()" ng-show="vm.isLoggedIn">
+					<p>Cerrar Sesión</p>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

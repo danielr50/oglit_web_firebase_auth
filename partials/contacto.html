@@ -1,0 +1,59 @@
+<script>
+	$(document).ready(function() {
+		$('.row').animate({
+			// 'margin-left':'50px',
+			'opacity':'1'
+		}, 1500);
+	});
+</script>
+<div class="row">
+	<div class="col-md-12 header">
+		<div class="logo">
+			<a href="#/home"><img src="public/img/oglit_logo.png" alt=""></a>
+		</div>
+
+		<div class="title">
+			<h1>{{title}}</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default frm">
+				<div class="panel-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="nombre">Nombre</label>
+							<input class="form-control" id="nombre" type="text">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input class="form-control" id="email" type="email">
+						</div>
+						<div class="form-group">
+							<label for="tel">Teléfono</label>
+							<input class="form-control" id="tel" type="text">
+						</div>
+						<div class="form-group">
+							<label for="motivo">Motivo contacto</label>
+							<textarea class="form-control"  id="motivo" cols="18"></textarea>
+						</div>
+						<button class="btn btn-success">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="footer-nav">
+			<ul>
+				<li><a href="#/home">Home</a></li>
+				<li><a href="#/servicios">Servicios</a></li>
+				<li><a href="#/portafolio">Portafolio</a></li>
+				<li><a href="#/contacto">Contacto</a></li>
+				<li class="logo-footer"><a href="#/home"><img src="public/img/oglit_logo.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+</div>

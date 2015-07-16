@@ -1,0 +1,7 @@
+{
+  "name": "oglit_web",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular-ui-router": "^0.2.15"
+  }
+}
